@@ -1,48 +1,100 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+ /* ul - unordered list */
+ .octodex {
+   margin: 10px;
+   padding: 10px;
+   display: inline-block;
+
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+  /* li -list item */
+
+ .octocat {
+   display: inline-block;
+   width: 30%;
+
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
+/* .image-number */
+.octocat span {
+
+   color: #777777;
+   font-family: Arial;
+
+ }
+
+
+ .octocat a {
+   font-family: Arial;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+
+ }
+
+ .octocat img {
+   display: inline-block;
+   width: 94%;
+   vertical-align: top;
+   border: 1px solid #CACACA;
+   border-radius: 2%;
+   margin: 5px;
+   padding: 5px;
+ }
+
+
+ .image-footer {
+   display: inline-block;
+   border-bottom: 1px solid #cacaca;
+   font-size: 16px;
+
+ }
+
+
+ .image-number {
+   display: inline-block;
+   float: left;
+   width: 30%;
+
+ }
+
+
+li {
+   list-style-type: none;
+
+ }
+
+ .image-caption {
+   display: inline-block;
+   width: 70%;
+   text-align: right;
+
+ }
+
+
+ .image-caption span a {
+   display: inline-block;
+   width: 40%;
+   margin: 0;
+   float: right;
+
+ }
+
+
+ .authors {
+   display: inline-block;
+   width: 30%;
+   float: right;
+
+ }
+
+
+ .authors img {
+   width: 30%;
+   float: right;
+   display: inline-block;
+   border: 0px;
+   border-radius: 25%;
+   padding: 0;
+   margin: 0;
+
+ }
